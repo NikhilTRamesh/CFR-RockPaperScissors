@@ -149,6 +149,6 @@ def avgStrategyNoHuman(iterations,oppStrat):
 randomStrategy = [.6,.2,.2]
 print("Opponent Strategy: ",randomStrategy)
 print("Exploitative Strategy: ", getAvgStrategy(100000,randomStrategy))
-holders = avgStrategyNoHuman(10000,[.6,.2,.2])
+holders = avgStrategyNoHuman(100000,[.6,.2,.2])
 print("Opponents equilibrium strategy: ", holders[0])
 print("Players equilibrium strategy: ", holders[1])
