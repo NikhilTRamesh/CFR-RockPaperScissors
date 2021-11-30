@@ -1,7 +1,7 @@
 """
 RPS Trainer that utilizes standard Counterfactual Regret Minimization
 to generate a Nash Equilibrium that represents the GTO probability
-distribution for a game of Rock Paper Scissors
+distribution for a game of Rock Paper Scissors.
 """
 
 import random
